@@ -5,7 +5,41 @@
 </head>
 <body>
 
-<p>mljnjkhkh</p>
+    <div id="game">
+		<h1> The Psychic Game </h1>
+		<p>What letter am I thinking of?</p>
+		<p>Wins:</p>
+		<p>Losses:</p>
+		<p>Guesses Left:</p>
+		<p>Your Guesses so far:</p>
+	</div>
+
+
+    <script type="text/javascript">
+
+    var compChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+    var wins = 0;
+	var losses = 0;
+	var numbGuesses = 10;
+	var guessChoices = [];
+
+    // 
+    document.onkeyup = function(event) {
+             var userGuess = event.key;
+             var compGuess = compChoices[Math.floor(Math.random() * compChoices.length)];
+
+             var options = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]}
+             
+             if (userGuess == comp
+             Guess) {
+					wins++;
+					numGuesses = 10;
+					guessChoices = [];
+				}
+
+
+
 
 
 </script>
